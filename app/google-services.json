@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245109036794",
+    "project_id": "loadapp-ac0a2",
+    "storage_bucket": "loadapp-ac0a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245109036794:android:4e530d22f48bd0462bdb43",
+        "android_client_info": {
+          "package_name": "com.udacity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245109036794-t2n36o8nmu1bgvk0h0nahr0ksgstjcan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDITe2RxyHlmmfEx_mBoRdeNMTV1Gpkyq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245109036794-t2n36o8nmu1bgvk0h0nahr0ksgstjcan.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
