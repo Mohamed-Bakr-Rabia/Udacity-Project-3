@@ -13,8 +13,7 @@
     <string name="button_name">Click me</string>
     <string name="button_loading">We are loading </string>
     <string name="title_activity_detail">DetailActivity</string>
-    
-    <string name="notification_channel_id">My Channel</string>
+
 
     <string name="radio_button_1">Glide - Image Loading Library by Bump Tech</string>
     <string name="radio_button_2">LoadApp - Current repository by Udacity</string>
