@@ -42,8 +42,12 @@ class LoadingButton @JvmOverloads constructor(
     }
 
     init {
-        color = resources.getColor(R.color.colorPrimary,null)
-        rectColor = resources.getColor(R.color.colorPrimaryDark,null)
+        val typedArray = context.theme.obtainStyledAttributes(attrs,R.styleable.LoadingButton,defStyleAttr,0)
+        color = typedArray.getColor(R.styleable.LoadingButton_main_color,0)
+        rectColor = typedArray.getColor(R.styleable.LoadingButton_rect_color,0)
+        typedArray.recycle()
+        //color = resources.getColor(R.color.colorPrimary,null)
+        //rectColor = resources.getColor(R.color.colorPrimaryDark,null)
         setBackgroundColor(color)
 
     }
